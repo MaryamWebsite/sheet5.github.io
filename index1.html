@@ -1,0 +1,91 @@
+<head>
+    <style>
+        body {
+            background-image: url("sc.jpg");
+            background-size: cover;
+        }
+    </style>
+       
+       
+    <title> CV Form </title>
+    <h1> CV Form</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information </legend>
+
+            <p>
+                <label>
+                    Name: <br />
+                    <input name="Name" />
+                </label>
+            </p>
+
+            <p>
+                Gender:
+                <label> Male  <input type="radio" </label>
+                <label> Female <input type="radio" </label>
+            </p>
+
+            <p>
+                <label>
+                    Enter your phone number: <br />
+                    <input name="email" type="number" placeholder="555-55-555" />
+                    format 555-55-555
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Your linkedin page: <input name="Name" />
+                    EMAIL : <input type="email" name="email" />
+                </label>
+            </p>
+        </fieldset>
+
+        <p><label>Years of experience(between 3 and 10): <input name="Years" /></label></p>
+
+        <p>
+            expected salary : 4000
+            <input type="range" name="salary" min="3" max="10" /> 1000
+        </p>
+
+        <p>
+            language:<br />
+            <input name="ar" type="checkbox" value="arabic"  <label>Arabic </label><br />
+            <input name="select" type="checkbox" value="english"<label> English </label>
+        </p>
+
+
+        <label for="languages">
+            Uploaod your CV :
+            <input type="button" value="Choose File"> No file chossen
+        </label><br />
+
+        <p>
+            <label for="week"> The nearest week you can start work
+                </label> <input type="week" id="week" name="week">
+        </p> 
+        <p>
+            <label for="month"> The nearest month you can stsrt work 
+                </label> <input type="month" id="month">
+        </p>
+
+        <label for="work">The best time to work </label>
+        <input type="time">
+
+        <p><label> Majors : <input name="major" /></label></p>
+
+        <p>
+            <label>
+                Why you want work with us <br />
+                <textarea name="comment" rows="4" cols="150">  </textarea>
+            </label><br>
+            <input type="button" value="send" />
+            <input type="button" value="reset" />
+        </p>
+    </form>
+</body>
+</html>

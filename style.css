@@ -1,0 +1,57 @@
+
+h1{
+       color: midnightblue;
+
+      }
+ul{
+    list-style:square;
+}
+
+ol{
+    list-style:upper-roman;
+}
+
+ul ol{
+    list-style:lower-roman;
+}
+
+ol ol {
+    list-style:lower-roman;
+
+}
+a{
+    text-decoration:none;
+    color:red;
+}
+
+a:hover, a:active{
+    text-decoration:underline;
+
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:green;
+}
+
+a:active{
+    color:black;
+}
+p1 {
+    font-size: 1.4rem;
+    font-family: Courier;
+    color:  midnightblue;
+}
+
+p2  {
+    font-size: 1.5rem;
+    font-family: Georgia;
+    color: hotpink;
+}
+
+.p3 {
+    font-size: 2rem;
+    font-family:Garamond;
+    color: rebeccapurple;
+}
